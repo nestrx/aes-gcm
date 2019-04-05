@@ -1,8 +1,16 @@
 {
   "name": "@nestrx/aes-gcm",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "The module encryption AES GCM for NestJS framework.",
   "author": "zinzinday@gmail.com",
+  "repository": "https://github.com/nestrx/aes-gcm.git",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "prepublish:next": "npm run build",
+    "publish:next": "npm publish --access public --tag next"
+  },
   "devDependencies": {
     "@nestjs/common": "^6.0.0",
     "prettier": "^1.16.4",
