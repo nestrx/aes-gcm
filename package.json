@@ -1,6 +1,6 @@
 {
   "name": "@nestrx/aes-gcm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The module encryption AES GCM for NestJS framework.",
   "author": "zinzinday@gmail.com",
   "repository": "https://github.com/nestrx/aes-gcm.git",
